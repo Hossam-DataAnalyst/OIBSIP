@@ -22,3 +22,13 @@ Based on the K-Means clustering (K=3), we identified three distinct customer seg
 3. **Cluster 0 (The Churned / At-Risk):**
    - **Profile:** Customers who haven't purchased in over a year (avg. 461 days) with low spending and frequency.
    - **Recommendation:** Launch aggressive re-engagement campaigns. Send personalized "We Miss You" emails containing high-value discount codes for their next purchase.
+## Visualizations
+
+**1. The Elbow Method (Finding Optimal K):**
+![Elbow Method](elbow.png)
+
+**2. Customer Segments (Recency vs Monetary):**
+![Scatter Plot](scatter.png)
+
+**3. Number of Customers in Each Segment:**
+![Bar Chart](bar.png)
