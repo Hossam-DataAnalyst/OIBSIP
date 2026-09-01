@@ -39,7 +39,11 @@ The model was evaluated using standard regression metrics to quantify its accura
 * **Residual Plot:** Confirms that prediction errors are largely randomly distributed around zero, indicating a healthy linear fit without severe systematic bias.
 * **Price Distribution:** Visualizes the market spread of the target variable.
 
-*(Check the repository files for `actual_vs_predicted.png` and `distribution_and_residuals.png`)*
+### Actual vs. Predicted Prices
+![Actual vs Predicted Prices](actual_vs_predicted.png)
+
+### Residuals and Price Distribution
+![Distribution and Residuals](distribution_and_residuals.png)
 
 ## 💡 Business Insights & Coefficient Analysis
 By analyzing the model's coefficients, we extracted the exact dollar value impact of each feature on the final house price:
